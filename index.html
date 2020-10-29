@@ -1,27 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" type="text/css" href="index.css"/>
+    <link rel="stylesheet" type="text/css" href="index.css" />
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-159558079-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-159558079-1');
+    </script>
+    <style>
+        body {
+            background-color: rgb(163, 121, 91)
+        }
+    </style>
 </head>
+
 <body>
-    <table>
-        <tb><a href= "index.html">Home</a></tb>
-        &nbsp;
-        <tb><a href= "recipes.html">Recipes</a></tb>
-        &nbsp;
-        <tb><a href= "coffee.html">Coffee</a></tb>
-        &nbsp;
-        <tb><a href= "hotspots.html">Hotspots</a></tb>
-        &nbsp;
-        <tb><a href= "contact.html">Contact</a></tb>
-        &nbsp;
-        <tb><a href= "manufacturers.html">Manufacturers</a></tb>
-    </table>
-    <h1>Coffee 4 The World</h1>
-    <p>A place where you can share coffee recipies, resources, and hotspots as well as learn about the essence of coffee.</p> <!--I would like to allow for people to post their own recipies sometime in the future-->
-    <a href="sitemap.html">sitemap</a>
+
+    <div id="bannerimage">
+
+    </div>
+
+
+    <ul id="nav">
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="coffee.html">COFFEE</a></li>
+        <li><a href="recipes.html">RECIPES</a></li>
+        <li><a href="manufacturers.html">MANUFACTURERS</a></li>
+        <li><a href="contact.html">CONTACT</a></li>
+    </ul>
+    <div id="header">
+        <h1>COFFEE 4 THE WORLD</h1>
+        <p>A place for recipies, resources, and hotspots all about
+            coffee.</p><a id="header-image" href="coffee-header.jpg" alt="header-image">
+    </div>
+
+    <div class="row">
+        <div class="center">
+            <img src="Whipped-Coffee-1.jpg" alt="coffee-image-1" height="500"></a>
+        </div>
+        <div class="center">
+            <img src="thai-iced-coffee-1.jpg" alt="coffee-image-2" height="500"></a>
+        </div>
+        <div id="right">
+            <img src="coffee-3.jpg" alt="coffee-image-3" height="500"></a>
+        </div>
+    </div>
 </body>
+
 </html>
