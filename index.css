@@ -10,6 +10,7 @@
     -webkit-text-stroke: black; 
     -webkit-text-stroke-width: 1px;
     font-size: 25px;
+    font-family: fantasy 
 }
 p {
     -webkit-text-stroke: black;
@@ -33,10 +34,10 @@ p {
 }
   
     #nav {
-        width:750px;
-        margin:20px 0 0;
+        width:870px;
+        margin:35px 0 0;
         padding: 10px 0;
-        margin-left: 25%;
+        margin-left: 21%;
         list-style:none;
         background-color: black;
         overflow: auto;

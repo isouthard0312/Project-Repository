@@ -10,6 +10,7 @@
     -webkit-text-stroke: black; 
     -webkit-text-stroke-width: 1px;
     font-size: 25px;
+    font-family: fantasy 
 }
 p {
     -webkit-text-stroke: black;
@@ -33,10 +34,10 @@ p {
 }
   
     #nav {
-        width:750px;
+        width:870px;
         margin:20px 0 0;
         padding: 10px 0;
-        margin-left: 25%;
+        margin-left: 21%;
         list-style:none;
         background-color: black;
         overflow: auto;
@@ -56,3 +57,57 @@ p {
         color: white;
         border:20% white solid;
         }
+        #content{
+            left: -120px;
+        }
+        h2{
+            font-size: xx-large;
+            color: black;
+            margin-left: -1250px;
+            background-color: white;
+        }
+        h3{
+            background-color:black;
+            margin-left: -1300px;
+            font-size: large;
+        }
+        #italy-list{
+            margin-left: -1300px; 
+        }
+        h4{
+            margin-left: -1300px; 
+            background-color: black;
+            font-size: large; 
+        }
+        #spain-list{
+            margin-left: -1300px; 
+        }
+        h5{
+            margin-left: -1300px; 
+            background-color: black;
+            font-size: large;  
+        }
+        #germany-list{
+            margin-left: -1300px; 
+        }
+        h6{
+            font-size: xx-large;
+            color: black;
+            margin-left: -1250px;
+            background-color: white;  
+        }
+        #image-placement{
+            background-color: lightgrey;
+            width: 300px;
+            height: 1000px;
+            border: 15px solid black;
+            padding: 50px;
+            margin: 20px;
+            margin-left: 300px;
+            margin-top: -900px;
+            color: black;
+        }
+        #down{
+            margin-top: 200px;
+        }
+     
