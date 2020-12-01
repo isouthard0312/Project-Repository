@@ -16,6 +16,7 @@ p {
     -webkit-text-stroke: black;
     -webkit-text-stroke-width: 0;
     color:white;
+    font-family: 'Courier New', Courier, monospace;
 }
 #header-image{
     display: block;
@@ -65,49 +66,59 @@ p {
             color: black;
             margin-left: -1250px;
             background-color: white;
+            font-family: 'Courier New', Courier, monospace;
         }
         h3{
             background-color:black;
             margin-left: -1300px;
             font-size: large;
+            font-family: 'Courier New', Courier, monospace;
         }
         #italy-list{
             margin-left: -1300px; 
+            font-family: 'Courier New', Courier, monospace;
         }
         h4{
             margin-left: -1300px; 
             background-color: black;
             font-size: large; 
+            font-family: 'Courier New', Courier, monospace;
         }
         #spain-list{
             margin-left: -1300px; 
+            font-family: 'Courier New', Courier, monospace;
         }
         h5{
             margin-left: -1300px; 
             background-color: black;
             font-size: large;  
+            font-family: 'Courier New', Courier, monospace;
         }
         #germany-list{
             margin-left: -1300px; 
+            font-family: 'Courier New', Courier, monospace;
         }
         h6{
             font-size: xx-large;
             color: black;
             margin-left: -1250px;
-            background-color: white;  
+            background-color: white; 
+            font-family: 'Courier New', Courier, monospace; 
         }
         #image-placement{
-            background-color: lightgrey;
-            width: 300px;
+            background-color: rgb(163, 121, 91);
+            width: 300;
             height: 1000px;
-            border: 15px solid black;
+           margin-bottom: 200px;
             padding: 50px;
             margin: 20px;
             margin-left: 300px;
-            margin-top: -900px;
-            color: black;
+            margin-top: -650px;
+            border: white;
+            
         }
         #down{
             margin-top: 200px;
+            position: fixed;
         }
      

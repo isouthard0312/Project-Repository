@@ -42,8 +42,8 @@
         <a id="header-image" href="beans-header.jpg" alt="header-image"></a>
     </div>
     <div id="content">
-            <h2>Dalgona Coffee</h2>
-    <p>Dalgona Coffee is a special whipped coffee that quickly gained fame (in korea and in the US on tiktok) from its
+            <h2 id="stylechange" onclick="myFunction()">Dalgona Coffee</h2>
+    <p  id="Dalgona" onclick="myFunction()">Dalgona Coffee is a special whipped coffee that quickly gained fame (in korea and in the US on tiktok) from its
         unique flavor and efficiency. All you need for this recipe is your favorite instant coffee, milk, sugar, and
         water.</p>
     <ol>
@@ -69,7 +69,12 @@
 </div>
 
     <a href="sitemap.html">sitemap</a>
-
+    <script>
+        function myFunction() {
+          document.getElementById("Dalgona").style.color = "blue";
+  document.getElementById("stylechange").style.fontFamily = "cursive";
+}
+        </script>
 </body>
 
 </html>

@@ -53,10 +53,22 @@
             <img src="thai-iced-coffee-1.jpg" alt="coffee-image-2" height="500"></a>
         </div>
         <div id="right">
-            <img src="coffee-3.jpg" alt="coffee-image-3" height="500"></a>
+            <img src="coffee-3.jpg" alt="coffee-image-3" height="500" onmouseover="rollover(this)"></a>
         </div>
     </div>
     <a href="sitemap.html">sitemap</a>
+
+    <script>
+        function rollover (image_4)
+        {
+            image_4.src = 'thai-iced-coffee-1.jpg';
+
+        }
+        function mouseaway(image_3)
+        {
+            image_3.src = "Bulletcoffee.jpg";
+        }
+    </script>
 </body>
 
 </html>

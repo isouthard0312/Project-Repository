@@ -32,8 +32,8 @@
         <li><a href="coffee.html">COFFEE</a></li>
         <li><a href="recipes.html">RECIPES</a></li>
         <li><a href="manufacturers.html">MANUFACTURERS</a></li>
-        <li><a href="contact.html">CONTACT</a></li>
         <li><a href="hotspots.html">HOTSPOTS</a></li>
+        <li><a href="contact.html">CONTACT</a></li>
     </ul>
     <div id="header">
         <h1>CONTACT US!</h1>
@@ -45,13 +45,20 @@
             <label for="comments"> Leave a Reply:</label>
             <textarea id="comments" name="comments" rows="5" cols="25"
                 placeholder="Enter your comment here..."></textarea>
-            <button type="submit" name="submit-button">SUBMIT
+            <button type="submit" name="submit-button"  onclick="myFunction()">SUBMIT
             </button>
             <button type="reset" name="reset-button">RESET
             </button>
         </div>
+       
     </form>
     <a href="sitemap.html">sitemap</a>
+
+    <script>
+        function myFunction() {
+          alert("Thank you!");
+        }
+        </script>
 
 </body>
 
